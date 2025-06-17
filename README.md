@@ -1,12 +1,57 @@
-# React + Vite
+# 🌐 IP Address Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application that allows users to track IP addresses or domain names and visualize their approximate location on an interactive map using Leaflet.js.
 
-Currently, two official plugins are available:
+![IP Address Tracker Screenshot](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Live Site](https://your-deployment-link.com)
+
+---
+
+## 📦 Built With
+
+- ⚛️ **React** – UI rendering and state management  
+- 🗺️ **Leaflet.js** – Interactive maps and marker visualization  
+- 🌐 **ipwho.is API** – IP geolocation data  
+- 💨 **Tailwind CSS** – Utility-first CSS for fast styling  
+- 🧭 **React Leaflet** – Leaflet bindings for React
+
+---
+
+## ✨ Features
+
+- 🔍 Search for any valid IP address or domain name
+- 🌍 View location info like country, region, timezone, and ISP
+- 📌 See real-time location on an interactive map
+- 💻 Responsive and mobile-friendly UI
+- ❌ Error handling for invalid inputs or network issues
+
+---
+
+## 📸 Preview
+
+| Desktop View                        
+|------------------------------------
+|![image](https://github.com/user-attachments/assets/deec2c42-c721-485f-9611-8c9c0b4b0830)
+
+
+---
+
+## 🛠️ Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/ip-address-tracker.git
+
+# Navigate into the project folder
+cd ip-address-tracker
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
