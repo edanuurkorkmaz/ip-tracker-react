@@ -7,7 +7,7 @@ A modern, responsive web application that allows users to track IP addresses or 
 
 ## 🚀 Live Demo
 
-[Live Site]([https://ip-tracker-react-dun.vercel.app/])
+[Live Site](https://ip-tracker-react-dun.vercel.app/)
 
 ---
 
