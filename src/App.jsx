@@ -69,7 +69,7 @@ export default function IPTrackerApp() {
     return (
         <div className="min-h-screen  flex flex-col items-center bg-white">
             {/* Header */}
-            <div className="w-full  relative bg-[url('./ip-address-background.png')] bg-center  bg-cover py-10 px-6  pb-32 rounded-b-3xl text-white text-center">
+            <div className="w-full  relative bg-[url('/ip-address-background.png')] bg-center  bg-cover py-10 px-6  pb-32 rounded-b-3xl text-white text-center">
                 <h1 className="text-3xl sm:text-4xl font-bold mb-6">
                     IP Address Tracker
                 </h1>
