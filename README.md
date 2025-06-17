@@ -2,7 +2,6 @@
 
 A modern, responsive web application that allows users to track IP addresses or domain names and visualize their approximate location on an interactive map using Leaflet.js.
 
-![IP Address Tracker Screenshot](./screenshot.png)
 
 ---
 
