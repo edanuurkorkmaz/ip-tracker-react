@@ -127,7 +127,7 @@ export default function IPTrackerApp() {
                                     ISP
                                 </h3>
                                 <p className="text-lg font-bold text-gray-900">
-                                    {data.connection.org || "N/A"}
+                                    {data.connection.isp || "N/A"}
                                 </p>
                             </div>
                         </div>
