@@ -32,8 +32,8 @@ export default function IPTrackerApp() {
         setError("");
         try {
             const url = query
-                ? `https://ipwho.is/${query}`
-                : `https://ipwho.is/`;
+                ? `https://ipapi.co/${query}`
+                : `https://ipapi.co/json/`;
             const res = await fetch(url);
             const json = await res.json();
 
@@ -119,7 +119,7 @@ export default function IPTrackerApp() {
                                     Timezone
                                 </h3>
                                 <p className="text-lg font-bold text-gray-900">
-                                    {data.timezone.utc || "N/A"}
+                                    {data.timezone || "N/A"}
                                 </p>
                             </div>
                             <div>
@@ -127,7 +127,7 @@ export default function IPTrackerApp() {
                                     ISP
                                 </h3>
                                 <p className="text-lg font-bold text-gray-900">
-                                    {data.connection.isp || "N/A"}
+                                    {data.org || "N/A"}
                                 </p>
                             </div>
                         </div>
